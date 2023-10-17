@@ -10,7 +10,7 @@ const VideoSection = () => {
           {/* container section */}
           <div className='grid grid-cols-2 w-[95%] mx-auto mt-6'>
 
-            <div className=''>   {/* left side */}
+            <div className='w-[20%]'>   {/* left side */}
                <div className='flex flex-col gap-4'> {/* left side container */}
                   <div className='flex flex-col gap-1'> {/* Single Div */}
                      <AiFillHome className='text-xl ml-2'></AiFillHome>
@@ -36,7 +36,17 @@ const VideoSection = () => {
             </div> {/* left side */}
           
 
-            <div>{/* right side */}
+            <div className='w-[80%]'>{/* right side */}
+             <div className='flex flex-row'> {/* top side */}
+                <button className='px-2 py-1 bg-slate-100 rounded'>All</button>
+                <button className='px-2 py-1 bg-slate-100 rounded'>Mixes</button>
+                <button className='px-2 py-1 bg-slate-100 rounded'>Game shows</button>
+                <button className='px-2 py-1 bg-slate-100 rounded'>Live</button>
+                <button className='px-2 py-1 bg-slate-100 rounded'>Sports</button>
+                <button className='px-2 py-1 bg-slate-100 rounded'>Foods</button>
+                <button className='px-2 py-1 bg-slate-100 rounded'>Comedy</button>
+                <button className='px-2 py-1 bg-slate-100 rounded'>Travel</button>
+             </div> {/* top side */}
             
             </div>{/* right side */}
             
