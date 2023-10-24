@@ -92,6 +92,16 @@ const VideoSection = () => {
                 <button className='px-2 py-1 bg-slate-100 rounded'>Comedy</button>
                 <button className='px-2 py-1 bg-slate-100 rounded'>Travel</button>
              </div> {/* top side */}
+             <div className='flex flex-row'> {/* top side */}
+                <button className='px-2 py-1 bg-slate-100 rounded'>All</button>
+                <button className='px-2 py-1 bg-slate-100 rounded'>Mixes</button>
+                <button className='px-2 py-1 bg-slate-100 rounded'>Game shows</button>
+                <button className='px-2 py-1 bg-slate-100 rounded'>Live</button>
+                <button className='px-2 py-1 bg-slate-100 rounded'>Sports</button>
+                <button className='px-2 py-1 bg-slate-100 rounded'>Foods</button>
+                <button className='px-2 py-1 bg-slate-100 rounded'>Comedy</button>
+                <button className='px-2 py-1 bg-slate-100 rounded'>Travel</button>
+             </div> {/* top side */}
             {/* this section will be deleted */}
 
             
